@@ -1,0 +1,351 @@
+/* Style for the home section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 80vh;
+    padding: 0 10%;
+    margin-top: 5%;
+    box-sizing: border-box;
+    background-color: #ffffff;
+  }
+  
+  #home .content {
+    flex-basis: 50%;
+    text-align: left;
+  }
+  
+  #home h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  
+  #home h1 {
+    margin-top: 0;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  #home p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  #home .project-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #home .image-container {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  #personal-details {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+  }
+  
+  #personal-details .container {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    align-items: center;
+  }
+  
+  #personal-details .content {
+    text-align: justify;
+  }
+  
+  #personal-details .title {
+    font-size: 30px;
+    text-align: left;
+  }
+  
+  #personal-details #para {
+    display: grid;
+    grid-template-columns: 2% 98%;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    align-items: center;
+    border-left: 2px solid #ff5500;
+    padding-left: 4%;
+  }
+  
+ 
+  
+  #personal-details .about-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    justify-self: left;
+  }
+  
+  #area-of-interest {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  #area-of-interest .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #area-of-interest h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .interest-block {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .interest-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .interest-card .interest-image {
+    margin-right: 20px;
+  }
+  
+  .interest-card .interest-content {
+    text-align: center;
+  }
+  
+  .interest-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .interest-card p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  .interest-card .interest-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  #skills {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  #skills h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
+  
+  .skill-item-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .skill-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .level-bar {
+    width: 70%;
+    height: 10px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+  }
+  
+  .level {
+    height: 100%;
+    border-radius: 4px;
+  }
+  
+  .level-expert {
+    background-color: #ff5500;
+    width: 100%;
+  }
+  
+  .level-advanced {
+    background-color: #ffaa00;
+    width: 80%;
+  }
+  
+  .level-intermediate {
+    background-color: #ffdd00;
+    width: 60%;
+  }
+  
+  .skill-item p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  
+  /* Project grid styles */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  /* Container styles */
+  .container2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Project grid styles */
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+  }
+  
+  /* Project item styles */
+  .project-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .project-item:hover {
+    background-color: #ff5500;
+    color: #fff;
+  }
+  
+  .project-item h3,
+  .project-item p {
+    text-align: center;
+  }
+  
+
+  /* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  /* Styles for the home section */
+  #home {
+    flex-direction: column;
+    height: 60vh;
+  }
+
+  #home .content {
+    text-align: center;
+    margin-top: 25%;
+  }
+  #home p{
+    font-size: small;
+  }
+
+  #home h1{
+    font-size: larger;
+  }
+  #home h3{
+    font-size: medium;
+  }
+  #home .image-container {
+    padding-bottom: 10%;
+  }
+
+  #home .image-container img {
+    padding-top: 1%
+  }
+
+  /* Styles for the personal details section */
+  #personal-details .vertical-line {
+    display: none;
+  }
+
+  
+#personal-details #para {
+  display: block;
+  border-left: 2px solid #ff5500;
+  padding-left: 10%;
+}
+
+  #personal-details .content {
+    margin-left: 0;
+  }
+
+  /* Styles for the area of interest section */
+  #area-of-interest .container {
+    flex-direction: column;
+
+  }
+
+  /* Styles for the skills section */
+  #skills .skill-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-item{
+    width: 90%;
+  }
+
+  .interest-card {
+    width: 90%;
+    
+  }
+
+  /* Styles for the projects section */
+  #projects {
+    display: none;
+  }
+}
+

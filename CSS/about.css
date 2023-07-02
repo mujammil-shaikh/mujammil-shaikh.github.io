@@ -1,0 +1,119 @@
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: -webkit-xxx-large;
+  }
+   
+  
+  .timeline li.left {
+    border-left: 2px solid #ff5500;
+    
+    margin-left: 49.95%;
+  }
+  
+  .timeline li.right {
+    border-right: 2px solid #ff5500;
+    
+    margin-right: 49.9%;
+  }
+  
+  .custom-point {
+    position: relative;
+  }
+  
+  .custom-point::before {
+    content: "";
+    position: absolute;
+    left: -6px; /* adjust this value to position the point */
+    top: calc(50% - 5px); /* adjust this value to position the point */
+    width: 10px;
+    height: 10px;
+    background-color: #ff5500;
+    border-radius: 50%;
+  }
+
+  .custom-point2 {
+    position: relative;
+  }
+  
+  .custom-point2::before {
+    content: "";
+    position: absolute;
+    right: -6px; /* adjust this value to position the point */
+    top: calc(50% - 5px); /* adjust this value to position the point */
+    width: 10px;
+    height: 10px;
+    background-color: #ff5500;
+    border-radius: 50%;
+  }
+  
+  
+
+  section.timeline li {
+    padding: 0px 10%;
+    list-style-type: none;
+    
+    text-decoration: none;
+    
+  }
+  
+  .card-content:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  
+.card-content {
+    background-color: white;
+    box-shadow: 0px 10px 27px 3px rgba(204, 204, 204, 0.2);
+    padding: 30px;
+    opacity: 1;
+    transition: transform 0.3s ease;
+  }
+  
+  .card-content h4 {
+    margin: 0;
+    margin-bottom: 4%;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+ .card-content p {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+  }
+  
+  /* Media query for screens with a maximum width of 768px */
+  @media (max-width: 768px) {
+    .timeline li.right{
+      border: none ;
+    }
+
+    .timeline li.left, .timeline li.right{
+      border-left: 2px solid #ff5500;
+      margin: 0;
+      padding: 5%;
+    }
+
+    .custom-point2::before {
+      
+      left: -6px; /* adjust this value to position the point */
+    }
+
+    .card-content {
+      padding: 3%;
+    }
+
+    h1{
+      font-size: 30px;
+    }
+
+    .card-content h4{
+      font-size: large;
+    }
+
+    .card-content p {
+      font-size: smaller;
+    }
+  }
