@@ -281,7 +281,6 @@
   /* Styles for the home section */
   #home {
     flex-direction: column;
-    height: 60vh;
   }
 
   #home .content {
