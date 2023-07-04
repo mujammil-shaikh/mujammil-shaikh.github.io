@@ -312,7 +312,7 @@
   }
     #personal-details .container {
     
-    grid-template-columns: 5% 90% 5%;
+    grid-template-columns: 5% 80% 10%;
     }
   
 #personal-details #para {
@@ -338,10 +338,11 @@
   }
 
   .skill-item{
-    width: 90%;
+    width: 80%;
   }
 
   .interest-card {
+    margin-top: 4%;
     width: 90%;
     
   }
