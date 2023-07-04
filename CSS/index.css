@@ -281,6 +281,7 @@
   /* Styles for the home section */
   #home {
     flex-direction: column;
+    height:auto;
   }
 
   #home .content {
@@ -298,7 +299,7 @@
     font-size: medium;
   }
   #home .image-container {
-    margin-bottom: 10%;
+    margin: 10% 0;
   }
 
   #home .image-container img {
