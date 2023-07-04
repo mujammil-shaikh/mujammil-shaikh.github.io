@@ -48,7 +48,7 @@
     align-items: center;
   }
   
-  .image-container{
+  .image-container img{
       width: 50%;
       margin: 10% 0;
   }
