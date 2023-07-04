@@ -48,7 +48,10 @@
     align-items: center;
   }
   
-  
+  .image-container{
+      width: 50%;
+      margin: 10% 0;
+  }
   
   #personal-details {
     background-color: #f9f9f9;
@@ -303,7 +306,7 @@
   }
 
   #home .image-container img {
-    padding-top: 1%;
+    width: 100%;
   }
 
   /* Styles for the personal details section */
