@@ -310,7 +310,10 @@
   #personal-details .vertical-line {
     display: none;
   }
-
+    #personal-details .container {
+    
+    grid-template-columns: 5% 90% 5%;
+    }
   
 #personal-details #para {
   display: block;
