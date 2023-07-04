@@ -301,10 +301,7 @@
   #home h3{
     font-size: medium;
   }
-  #home .image-container {
-    margin: 10% 0;
-  }
-
+ 
   #home .image-container img {
     width: 100%;
   }
