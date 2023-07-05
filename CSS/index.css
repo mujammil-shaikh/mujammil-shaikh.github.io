@@ -39,7 +39,9 @@
     color: #fff;
     border: none;
     border-radius: 4px;
+    text-decoration: none;
   }
+
 .btn:hover{
     background-color: #ff5500;
   }
